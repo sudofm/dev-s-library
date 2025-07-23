@@ -12,3 +12,5 @@ export const SpinnerLoading = () => {
             </div>
     );
 }
+
+export default SpinnerLoading;
