@@ -13,15 +13,15 @@ public class DevsLibraryApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DevsLibraryApplication.class, args);
-		System.out.println("DB URL: " + System.getProperty("spring.datasource.url"));
+		//System.out.println("DB URL: " + System.getProperty("spring.datasource.url"));
 	}
 
-	@Bean
+	/*@Bean
 	CommandLineRunner runner(BookRepository bookRepository) {
 		return args -> {
 			System.out.println("Books in DB:");
 			bookRepository.findAll().forEach(System.out::println);
 		};
-	}
+	}*/
 
 }

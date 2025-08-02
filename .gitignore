@@ -1,0 +1,27 @@
+# === BACKEND (Spring Boot) ===
+backend/*/target/
+backend/*.iml
+backend/*/.classpath
+backend/*/.project
+backend/*/.settings/
+backend/*/application.properties
+backend/*/application.yml
+
+# === FRONTEND (React) ===
+front/*/node_modules/
+front/*/build/
+front/*/.env
+front/*/.env.local
+front/*/authconfig.ts
+front/*/firebaseConfig.ts
+
+# === GÉNÉRAL ===
+*.log
+*.key
+*.pem
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
+*.iml
